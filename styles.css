@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(purple, white);
+}
+
+#header {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.kesse-img {
+    width: 450px;
+    border-radius: 0 50px 0 50px;
+    box-shadow: 0 5px 30px black;
+}
+.kesse-img:hover{
+    border-radius: 50px 0 50px 0;
+    transition: 0.5s;
+}
+.head-title {
+    text-align: right;
+    margin: 0 25px 0 0;
+    color: pink;
+    text-shadow: 0 0 5px black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.gift-img {
+    width: 350px;
+    height: 400px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+#gift{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.bday1:hover {
+    background-image: url("gif/bday1.webp");
+    background-size: contain;
+    background-repeat: none;
+    transition: 0.5s;
+}
+
+.bdaydance:hover {
+    background-image: url("gif/bdaydance.webp");
+    background-size: contain;
+    background-repeat: none;
+    transition: 0.5s;
+}
+
+.bdaypresent:hover {
+    background-image: url("gif/bdaypresent.webp");
+    background-size: contain;
+    background-repeat: none;
+    transition: 0.5s;
+}
+
+.blessed:hover {
+    background-image: url("gif/blessed.webp");
+    background-size: contain;
+    background-repeat: none;
+    transition: 0.5s;
+}
+
+.funnydance:hover {
+    background-image: url("gif/funnydance.webp");
+    background-size: contain;
+    background-repeat: none;
+    transition: 0.5s;
+}
+
+.money:hover {
+    background-image: url("gif/money.webp");
+    background-size: contain;
+    background-repeat: none;
+    transition: 0.5s;
+}
+
+footer{
+    color: green;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+    margin-top: 50px;
+}
+a {
+    color: red;
+}
+
+.column-1, .column-2, .column-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
